@@ -17,6 +17,7 @@ module.exports = function () {
                 if (!body) {
                     callback([]);
                 } else {
+                    body.splice(1);
                     async.map(body, requestBuild, function (err, results) {
                         callback(results);
                     });

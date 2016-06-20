@@ -8,13 +8,13 @@
     {
       "name": "Travis",
       "configuration": {
-        "slug": "marcells/bloggy"
+        "slug": "ibm-bluemix-mobile-services/bms-clientsdk-android-core"
       }
     },
     {
       "name": "Travis",
       "configuration": {
-        "slug": "marcells/node-build-monitor"
+        "slug": "ibm-bluemix-mobile-services/bms-clientsdk-swift-core"
       }
     }
   ]
