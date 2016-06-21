@@ -1,7 +1,7 @@
 {
   "monitor": {
     "interval": 5000,
-    "numberOfBuilds": 12,
+    "numberOfBuilds": 100,
     "debug": true
   },
   "services": [
@@ -15,6 +15,102 @@
       "name": "Travis",
       "configuration": {
         "slug": "ibm-bluemix-mobile-services/bms-clientsdk-swift-core"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bluemix-objectstorage-serversdk-swift"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bluemix-simple-http-client-swift"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bluemix-simple-logger-swift"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bms-clientsdk-android-analytics"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bms-clientsdk-android-push"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bms-clientsdk-android-security-facebookauthentication"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bms-clientsdk-android-security-googleauthentication"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bms-clientsdk-cordova-plugin-core"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bms-clientsdk-cordova-plugin-push"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics-api"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bms-clientsdk-swift-push"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bms-pushnotifications-serversdk-swift"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/mfp-clientsdk-android-analyticsspec"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bluemix-objectstorage-clientsdk-swift"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "ibm-bluemix-mobile-services/bms-pushnotifications-serversdk-nodejs"
       }
     }
   ]
