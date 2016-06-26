@@ -17,8 +17,18 @@ module.exports = function () {
                 if (!body) {
                     callback([]);
                 } else {
-                    body.splice(1);
-                    async.map(body, requestBuild, function (err, results) {
+                    var builds = [];
+console.log(body);
+                    for (var i = 0; i < body.length; i++) {
+                        var build = body[i];
+console.log(build);
+console.log(build.branch);
+                        if (build.branch === 'development') {
+                            builds.push(build);
+                            break;
+                        }
+                    }
+                    async.map(builds, requestBuild, function (err, results) {
                         callback(results);
                     });
                 }
